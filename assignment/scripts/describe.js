@@ -47,8 +47,8 @@ if (name === 'Mary') {
 // 2. WRITE YOUR DESCRIPTION HERE
 // We make a decleration that the value called secret exists from here on out.
 // As well as make another variable called code and set it to the number value of 123.
-// If the variable code exactly equals 123, and the variable secret equals the string value super and the code variable equals its own value times two, which is 246, 
-// and if the variable code is greater than 250 and the variable secret equals the string value duper then console. log the variable secret.
+// If the variable code exactly equals 123, then variable secret equals the string value super and the code variable equals its own value times two, which is 246, 
+// and if the variable code is greater than 250 then the value of the variable secret equals to the string value duper then we console.log the variable secret. 
 
 //CODE
 /*
@@ -75,7 +75,7 @@ console.log(secret)
 // And lastly make another variable named zip and set it to the number value of 55407.
 // if the variable isStudent is exactly true AND the variable zip is greater than 80000 then console.log 'You're a student on the West Coast!'
 // Otherwise if the variable isStudent is exactly false OR the variable age is less than the number value 30 then console.log 'What are your hobbies?'
-// Also if the variable isStudent is exactly true then console.log 'Welcome to Prime!'
+// But if the variable isStudent is exactly true then console.log 'Welcome to Prime!'
 // But if all above fails then console.log 'How about the weather?'
 
 //CODE
