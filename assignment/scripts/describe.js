@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and set it to the string value Dane. 
+// Then if the variable name is exactly the same as the string value Mary, 
+// We console.log 'Hi, Mary!'
+// Otherwise we console. log 'how do you do?' 
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a decleration that the value called secret exists from here on out.
+// As well as make another variable called code and set it to the number value of 123.
+// If the variable code exactly equals 123, and the variable secret equals the string value super and the code variable equals its own value times two, which is 246, 
+// and if the variable code is greater than 250 and the variable secret equals the string value duper then console. log the variable secret.
 
 //CODE
 /*
@@ -70,10 +70,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable named isStudent and give it the true value. 
+// We also make a variable named age and set it to the number value of 34.
+// And lastly make another variable named zip and set it to the number value of 55407.
+// if the variable isStudent is exactly true AND the variable zip is greater than 80000 then console.log 'You're a student on the West Coast!'
+// Otherwise if the variable isStudent is exactly false OR the variable age is less than the number value 30 then console.log 'What are your hobbies?'
+// Also if the variable isStudent is exactly true then console.log 'Welcome to Prime!'
+// But if all above fails then console.log 'How about the weather?'
 
 //CODE
 /*
@@ -130,12 +133,18 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//FIX - let colorOne = 'red' is set to string value red but in the instructions it says to set it to 'blue'
+// Should be let colorOne = 'blue'
 let colorOne = 'red';
+//FIX - let colorTwe = 'blue' is set to string value blue but in the instructions it says to set it to 'red'
+// Should be let colorTwo = 'red'
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+// FIX - colorOne = 'purple' is set for colorOne to only be 'purple' but the instruction says that both variables colorOne AND colorTwo be set on 'purple'
+// Should add on the next line after colorOne = 'purple' this code block colorTwo = 'purple'
 }
 */
 
@@ -145,9 +154,13 @@ if (mix === true) {
 
 /*
 let temp = 40;
+// FIX - const time = 4; says that time is a constant, but the instructions says it's a variable.
+// should be let time = 4 
 const time = 4;
 
 if (temp > 39 || time >= 4) {
+// FIX - if (temp > 39 || time >= 4) checks is temp is higher than 39 OR if time is greater or equal to 4, but the instructions wants both to be true.
+// should be if(temp > 39 && time >= 4)
   console.log('throw away the food!');
 }
 */
@@ -158,7 +171,20 @@ if (temp > 39 || time >= 4) {
 
 /*
 let age = 21;
+// FIX - const minAge = 21 says that minAge is a constant, but the instruction states that minAge is a variable.
+// should be let minAge = 21
 const minAge = 21;
+
+// FIX - if(minAge <= age) {
+  console.log('no entry');
+} else {
+  console.log('enter');
+} is checking if the variable minAge is less than or equal to the variable age, and if so, console.log 'no entry' otherwise log 'enter'
+// should be 
+
+if (age >= minAge) {
+  console.log('entry');
+}
 
 if(minAge <= age) {
   console.log('no entry');
